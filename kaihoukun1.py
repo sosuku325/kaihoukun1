@@ -181,7 +181,7 @@ else:
 icon_path = os.path.join(base_path, "icon.ico")
 
 root = tk.Tk()
-root.title("開放くん1")
+root.title("kaihoukun1")
 root.resizable(False, False)
 set_window_icon(root)
 
@@ -222,3 +222,4 @@ tk.Button(root, text="開発者のディスコード(アップデート版配布
           command=open_discord_link).grid(row=6, column=0, columnspan=4, pady=10)
 
 root.mainloop()
+
